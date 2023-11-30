@@ -90,6 +90,8 @@ p {
 .container-fluid {
   height: 8rem;
   background: var(--blue);
+  box-shadow: 0 4px 2px -2px rgb(212, 212, 212);
+  border-radius: 10px;
 }
 
 .navbar-brand {
@@ -116,4 +118,26 @@ p {
   font-size: 20px;
   color: var(--white);
   text-decoration: none;
+}
+
+/*------HERO-------*/
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.container h2 {
+  color: var(--dark) !important;
+  font-family: var(--sottel);
+  font-size: 50px;
+}
+
+.btn {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.bruno img {
+  border-radius: 10px;
 }
