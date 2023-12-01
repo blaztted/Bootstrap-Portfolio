@@ -204,3 +204,39 @@ p {
 .about:hover {
   background-color: var(--light);
 }
+
+/*--------FOOTER---------------*/
+
+.footer {
+  position: relative;
+  padding: 20px 0;
+
+  background: var(--dark) !important;
+}
+
+.footer h3 {
+  color: var(--white);
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .icons .icons-link:last-child {
+  margin-bottom: 0;
+}
+
+.icon {
+  width: 60px;
+  height: max-content;
+}
+
+.footer p {
+  color: var(--white);
+  font-size: 14px;
+  margin-top: 20px;
+}
