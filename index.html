@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
-    <!-- NAVBAR -->
+    <!------------------ NAVBAR NEED TO ADD NAVIGATION MENU --------------->
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -46,35 +46,135 @@
       </nav>
     </header>
 
-    <!--HERO SECTION-->
-
-    <div class="container col-xxl-7 col-sm-12 px-6 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-lg-5">
-          <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-5">
-            Frontend Developer
-          </h2>
-
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-              Github
-            </button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-              Linkedin
-            </button>
+    <!-----------------------------HERO SECTION---------------------------->
+    <section class="hero">
+      <div class="container my-5 py-3">
+        <div
+          class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+        >
+          <div class="title col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h2 class="display-4 fw-bold lh-1 text-body-emphasis">
+              Frontend Developer
+            </h2>
+            <p class="lead">
+              Quickly design and customize responsive mobile-first sites with
+              Bootstrap, the world’s most popular front-end open source toolkit,
+              featuring Sass variables and mixins, responsive grid system,
+              extensive prebuilt components, and powerful JavaScript plugins.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content mb-4 mb-lg-3">
+              <button
+                type="button"
+                class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
+              >
+                Github
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-secondary btn-lg px-4"
+              >
+                Linkedin
+              </button>
+            </div>
+          </div>
+          <div class="bruno col-lg-4 py-5">
+            <img
+              class="rounded-sm-5 rounded-circle shadow-lg"
+              src="./images/bruno-profile.png"
+              alt=""
+            />
           </div>
         </div>
-        <div class="bruno col-10 col-sm-8 col-lg-6">
-          <img
-            src="./images/bruno-profile.png"
-            class="d-block mx-lg-auto img-fluid"
-            alt="Bootstrap Themes"
-            width="400"
-            height="300"
-            loading="lazy"
-          />
+      </section>
+    <!----------------------------WORK SECTION---------------------------->
+        <section class="projects" id="Work">
+       <div class="container">
+        <div class="card mb-3">
+          <img src="images/horieson.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Horiseon</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
         </div>
-      </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/02-portfolio-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/02-portfolio-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/02-portfolio-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+       </div>
+         
+          </section>
+  
+          <!-----------------SKILLS SECTION--------------------------->
+            <section class="skills bg-primary text-center" id="skills">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 mx-auto">
+                    <h2 class="section-heading">Discover all my skills!</h2>
+                
+                    <div class="badges">
+                      <a class="badge-link" href="#"><img src="images/icons/css.png" alt=""></a>
+                      <a class="badge-link" href="#"><img src="images/icons/js.png" alt=""></a>
+                      <a class="badge-link" href="#"><img src="images/icons/html.png" alt=""></a>
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </section>
+          
+        </div>
+
+<!-----------------------------SABOUT ME --------------------------->
+
+<section class="about" id="AboutMe">
+  <!-- about me -->
+    <div class="about-left">
+      <h2>About Me</h2>
     </div>
+    <div class="about-right">
+      <p> *Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe placeat ducimus, delectus tempore harum aliquam consequatur quisquam? Repudiandae fugiat, molestiae quod ullam, harum libero nobis commodi ab laboriosam rem modi.
+      </p>
+
+      <p>*Lorem ipsum dolor, sit amet consectetur adipisicing elit. In fugiat ea nostrum inventore temporibus, id repellendus repellat sapiente ipsa dignissimos laborum laboriosam, nisi natus. Asperiores vitae beatae quasi reiciendis iste!</p>
+    </div>
+  </div>
+  
+  </section>
+
+
+      </div>
+  
   </body>
 </html>
