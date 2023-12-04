@@ -58,7 +58,7 @@ h4 {
 }
 
 h5 {
-  font-size: 8px;
+  font-size: 12px;
   color: var(--dark);
 }
 
@@ -143,7 +143,21 @@ p {
   border-color: white !important    ;
 }
 
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
 /*------------------------WORK------------------*/
+
+.projects h3 {
+  color: var(--blue) !important;
+}
+
+.work-title h2 {
+  text-align: center;
+  padding: 10px;
+}
 
 /*--------------------------DOWNLOAD-----------------------*/
 
@@ -154,7 +168,7 @@ p {
   border-radius: 10px;
   margin-top: 2%;
   background: var(--blue) !important;
-  height: 500px;
+  height: 600px;
 }
 
 .skills h2 {
@@ -205,8 +219,9 @@ p {
   margin-right: 10%;
 }
 
-.about:hover {
-  background-color: var(--light);
+.about p {
+  padding: 10px;
+  color: var(--dark);
 }
 
 /*--------FOOTER---------------*/
