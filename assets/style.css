@@ -159,6 +159,10 @@ p {
   padding: 10px;
 }
 
+.card:hover {
+  border: 3px solid var(--dark) !important;
+}
+
 /*--------------------------DOWNLOAD-----------------------*/
 
 .skills {
